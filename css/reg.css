@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/logo_auth.png");
+    font-family: 'Audiowide', cursive;
+    background-size: cover;
+
+}
+
+.wrapper {
+    width: 800px;
+    margin: 5% auto;
+    font-family: 'Audiowide';
+}
+.wrapper h1{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+
+.from-area {
+    display: flex;
+    background: rgba(74, 83, 74, 0.418);
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.details-area {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.details-area input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.details-area input,
+.details-area button{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.details-area button{
+    background: tomato;
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+label{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
