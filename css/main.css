@@ -68,9 +68,11 @@ img {
 }
 
 .gallery {
-  display: flex;
-  /* как сузить слева и справа галлерею*/
-  flex-wrap: nowrap;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-gap: 5px;
+grid-auto-rows: minmax(100px, auto);
+margin:10px;
 }
 
 .articles div {
@@ -206,10 +208,9 @@ a {
 }
 
 .footer {
-  display: grid;
-  background-color: rgb(94, 94, 94);
+  background-color:   rgb(114, 114, 114);
+  color: wheat;
   font-size: 20px;
-  color: bisque;
-  justify-content: center;
-  height: 100%;
+  text-align: center;
+  padding-bottom: 2%;
 }
