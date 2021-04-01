@@ -1,59 +1,60 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @keyframes perspect {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 .container {
-	max-width: 1600px;
-	display: block;
-	width: 100%;
-	margin: 0 auto;
+  max-width: 1600px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 body {
   background: rgb(255, 250, 238);
-	margin: 0;
+  margin: 0;
+  animation: perspect 0.50s 1;
 
 }
 
 img {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
   margin-top: 5px;
 }
 
 .header {
-  animation: perspect 0.50s 1;
   border-bottom: solid 1px rgb(141, 141, 141);
-	width: 100%;
+  width: 100%;
   border-radius: 7%;
-	padding: 0 0 5px 0;
+  padding: 0 0 5px 0;
   font-family: 'Train One', cursive;
 }
 
 .header__container {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .header__img {
-	min-width: 150px;
-	max-width: 150px;
+  min-width: 150px;
+  max-width: 150px;
   margin-right: 36%;
 
 }
 
 .header__nav {
-	display: flex;
+  display: flex;
   gap: 5px;
 }
 
@@ -62,27 +63,27 @@ img {
 }
 
 .main {
-	padding: 40px 0;
+  padding: 40px 0;
   grid-gap: 10px;
-	width: 100%;
+  width: 100%;
 }
 
 .gallery {
-display: grid;
-grid-template-columns: repeat(5,1fr);
-grid-gap: 5px;
-grid-auto-rows: minmax(100px, auto);
-margin:10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 10px;
 }
 
 .articles div {
   color: white;
-	border-radius: 10px;
+  border-radius: 10px;
 
 }
 
 .articles {
-	width: 100%;
+  width: 100%;
   display: grid;
   grid-template:
     "four three one"
@@ -92,7 +93,7 @@ margin:10px;
   grid-template-rows: 250px 250px;
   grid-gap: 5px;
   justify-content: center;
-  font-family: 'Train One', cursive; 
+  font-family: 'Train One', cursive;
 }
 
 .bottom {
@@ -147,7 +148,7 @@ margin:10px;
 }
 
 .border-button {
-	white-space: nowrap;
+  white-space: nowrap;
   text-decoration: none;
   padding: 10px 20px 15px 20px;
   color: rgb(0, 0, 0);
@@ -172,43 +173,41 @@ a {
 
 
 .bottom-all {
-	display: flex;
-	gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .aside {
   background-color: rgb(113, 122, 202);
   border: solid 2px red;
-	padding: 10px;
-	width: 100%;
+  padding: 10px;
+  width: 100%;
 }
 
-.bottom-all__right-post {
-
-}
+.bottom-all__right-post {}
 
 .aside__item {
-	background-color: red;
+  background-color: red;
 
-	width: 100%;
+  width: 100%;
 }
 
 .right-post {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .right-post__item {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-	width: 100%;
-	border: 1px solid tomato;
+  width: 100%;
+  border: 1px solid tomato;
 }
 
 .footer {
-  background-color:   rgb(114, 114, 114);
+  background-color: rgb(114, 114, 114);
   color: wheat;
   font-size: 20px;
   text-align: center;

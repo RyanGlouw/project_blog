@@ -38,6 +38,7 @@ body {
     background: transparent;
     color: #fff;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 .details-area input,

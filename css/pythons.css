@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container_spiders {
+    margin-top: 20px;
+}
+
+.column1 {
+    display: flex;
+    width: 80%;
+    float: left;
+}
+.column2 {
+    display: flex;
+    float: right;
+    width: 20%;
+    border: solid 2px red;
+    flex-direction: column;
+}
+.column3 {
+    display: flex;
+    width: 100%;
+    border: solid 2px red;
+}
+
+
+
+.col1{
+    display: flex;
+    float: left;
+    width: 50%;
+flex-direction: column;
+}
+
+.col1 span{
+    margin-left: 8px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.col2{
+    width: 50%;
+    float: right;
+}
+
+.col2 img {
+    margin: 50px;
+    border-radius: 200px;
+    max-width: 60%;
+    min-width: auto;
+    border: solid 5px black;
+}
