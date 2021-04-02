@@ -1,16 +1,17 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 .container_spiders {
     margin-top: 20px;
 }
 
 .column1 {
+    float: left;
     display: flex;
     width: 80%;
-    float: left;
 }
+
 .column2 {
     display: flex;
     float: right;
@@ -18,28 +19,37 @@
     border: solid 2px red;
     flex-direction: column;
 }
+
 .column3 {
     display: flex;
     width: 100%;
-    border: solid 2px red;
+    border-top: solid 2px burlywood;
+    justify-content: center;
+
 }
 
+.column4 {
+    display: flex;
+    width: 100%;
+    border-top: solid 2px burlywood;
+    justify-content: center;
 
+}
 
-.col1{
+.col1 {
     display: flex;
     float: left;
     width: 50%;
-flex-direction: column;
+    flex-direction: column;
 }
 
-.col1 span{
+.col1 span {
     margin-left: 8px;
     text-align: left;
     font-size: 18px;
 }
 
-.col2{
+.col2 {
     width: 50%;
     float: right;
 }
