@@ -61,3 +61,62 @@
     min-width: auto;
     border: solid 5px black;
 }
+
+.mapNpins {
+    /*can be used to  manipulate/position the entire mapNpins block*/
+    display: block;
+    width: 100%;
+    border-top: solid 2px burlywood;
+    justify-content: center;
+
+}
+
+.map-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .map{
+    max-width: 100%; /* максимальный размер карты
+    max-height: 100%;/* 
+} */
+
+.ulist {
+    list-style: none;
+    /*удалить точки ul*/
+}
+
+.ulist li a {
+    position: absolute;
+    /* для того что бы увправлять каждой булавкой отдельно */
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    border: 1px solid black;
+    width: 5%;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*позиция булавки*/
+.map-container .ulist .pin1 a {
+    left: 25.5%;
+    top: 47%;
+}
+.map-container .ulist .pin2 a {
+    left: 20%;
+    top: 40%;
+}
+
+
+.ulist img {
+    width: 100%;
+    border-bottom-right-radius: 10px;
+
+}
+
+.ulist span {
+    color: wheat;
+    word-break: break-all;
+}
