@@ -49,7 +49,7 @@ img {
 .header__img {
   min-width: 150px;
   max-width: 150px;
-  margin-right: 36%;
+  margin-right: 30%;
 
 }
 
@@ -90,7 +90,7 @@ img {
     "four three two";
 
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 250px 250px;
+  grid-template-rows: 300px 250px;
   grid-gap: 5px;
   justify-content: center;
   font-family: 'Train One', cursive;
@@ -184,7 +184,10 @@ a {
   width: 100%;
 }
 
-.bottom-all__right-post {}
+.bottom-all {
+    margin: 1rem;
+    width: auto;
+}
 
 .aside__item {
   background-color: red;
@@ -213,4 +216,126 @@ a {
   text-align: center;
   padding-bottom: 2%;
   width: 100%;
+}
+
+@media screen and (max-width: 599px){
+  .header__img{
+    display: none;
+  }
+  .border-button {
+    width: 90%;
+    text-align: center;
+    border-radius: 100px;
+  }
+  .header__nav {
+    justify-content: center;
+    display: flex; 
+  }
+  .articles {
+    display: grid;
+    grid-template:
+    "four three one"
+    "four three two";
+    margin: 1rem;
+    width: auto;
+  }
+  .bottom-all{
+    margin: 1rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+  .header__img{
+    display: none;
+  }
+  .border-button {
+    width: 90%;
+    text-align: center;
+    border-radius: 100px;
+  }
+  .header__nav {
+    justify-content: center;
+    display: flex; 
+  }
+  .articles {
+    display: grid;
+    grid-template:
+    "four three one"
+    "four three two";
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+  }
+  .bottom-all{
+    margin: 1rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .header__img{
+  display: flex;
+  max-width: 400px;
+  min-width: 400px;
+  margin: auto;
+  }
+  .border-button {
+    width: 90%;
+    text-align: center;
+    border-radius: 100px;
+    
+  }
+  .header__nav {
+    justify-content: center;
+    display: flex; 
+  }
+
+  .main {
+    margin: 1rem;
+    width: auto;
+  }
+  .bottom-all{
+    margin: 1rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .header__img{
+    margin: auto;
+    max-width: 200px;
+    min-width: 200px;
+
+  }
+  .header__nav {
+    justify-content: flex-end;
+    display: flex; 
+    margin-right: 1rem;
+  } 
+  .main {
+    margin: 1rem;
+    width: auto;
+  }
+  .bottom-all{
+    margin: 1rem;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px){
+  .header__img{
+    margin: auto;
+    margin-top: 1%;
+    max-width: 200px;
+    min-width: 200px;
+  }
+  .main {
+    margin: 1rem;
+    width: auto;
+  }
+  .bottom-all{
+    margin: 1rem;
+    width: auto;
+  }
 }
