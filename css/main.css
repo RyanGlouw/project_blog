@@ -218,6 +218,7 @@ a {
   width: 100%;
 }
 
+
 @media screen and (max-width: 599px){
   .header__img{
     display: none;
@@ -338,4 +339,8 @@ a {
     margin: 1rem;
     width: auto;
   }
+  .header__nav {
+    justify-content: flex-end;
+    display: flex; 
+    margin-right: 1rem;
 }
