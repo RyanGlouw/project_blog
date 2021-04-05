@@ -73,8 +73,10 @@ a {
         width: auto;
     }
     body {
-        background-position: 100% 100%;
-        background-repeat:no-repeat;
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+        background-repeat: no-repeat;
     }
 }
 
