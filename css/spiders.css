@@ -104,6 +104,7 @@
     left: 25.5%;
     top: 47%;
 }
+
 .map-container .ulist .pin2 a {
     left: 20%;
     top: 40%;
@@ -119,4 +120,172 @@
 .ulist span {
     color: wheat;
     word-break: break-all;
+}
+
+@media screen and (max-width: 599px) {
+    .column1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .column2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        width: 95%;
+
+    }
+
+    .col2 {
+        display: none;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .col1 span {
+        margin: 10px;
+    }
+
+    .col1 ul {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .col1 li {
+        margin-right: 2rem;
+    }
+
+    .column4 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .column1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .column2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        width: 95%;
+    }
+
+    .col1 {
+        width: 100%;
+
+    }
+
+    .col2 {
+        display: none;
+    }
+
+    .column4 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .column1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .column2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        width: 95%;
+    }
+
+    .col2 {
+        height: 100%;
+
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .column4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .column1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .column2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        width: 95%;
+    }
+
+    .col2 {
+        height: 100%;
+
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    .column1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .column2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+        width: 95%;
+    }
+
+    .col2 {
+        height: 100%;
+
+    }
+
+    .col1 {
+        width: 100%;
+    }
 }
