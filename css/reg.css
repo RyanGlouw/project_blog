@@ -72,27 +72,86 @@ a {
     .wrapper {
         width: auto;
     }
+    body {
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  
+  background-color: #464646;
+    }
 }
 
     @media screen and (min-width: 600px) and (max-width: 767px){
         .wrapper {
             width: auto;
         }
-
+        body {
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: #464646;
+              }
     }
     
     @media screen and (min-width: 768px) and (max-width: 991px){
-
+        .wrapper {
+            width: auto;
+        }
+        body {
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: #464646;
+              }
 
     }
     
     @media screen and (min-width: 992px) and (max-width: 1200px){
-
+        .wrapper {
+            width: auto;
         }
+        body {
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: #464646;
+              }
 
     }
     
     @media screen and (min-width: 1201px) and (max-width: 1600px){
-
+        .wrapper {
+            width: auto;
+        }
+        body {
+            background-position: center center;
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            
+            background-size: cover;
+            
+            background-color: #464646;
+              }
 
     }
