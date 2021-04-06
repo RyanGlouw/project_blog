@@ -161,6 +161,9 @@
     .col1 li {
         margin-right: 2rem;
     }
+    .column3 h2{
+        display: none;
+    }
 
     .column4 {
         display: none;
@@ -192,6 +195,9 @@
     }
 
     .col2 {
+        display: none;
+    }
+    .column3 h2{
         display: none;
     }
 
@@ -226,6 +232,9 @@
 
     .col1 {
         width: 100%;
+    }
+    .column3 h2{
+        display: none;
     }
 
     .column4 {

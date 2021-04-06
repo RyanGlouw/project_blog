@@ -67,6 +67,9 @@ a {
     font-size: 14px;
     text-transform: uppercase;
 }
+input {
+    outline:none;
+}
 
 @media screen and (max-width: 599px){
     .wrapper {
