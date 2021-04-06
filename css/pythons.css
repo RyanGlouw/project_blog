@@ -6,14 +6,14 @@
     margin-top: 20px;
 }
 
-.column1 {
+.description {
     display: flex;
     width: 80%;
     float: left;
 }
 
 
-.column2 {
+.links_art {
     display: flex;
     float: right;
     width: 18%;
@@ -21,7 +21,7 @@
     flex-direction: column;
 }
 
-.column3 {
+.name_map {
     display: flex;
     width: 100%;
     border-top: solid 2px burlywood;
@@ -29,35 +29,34 @@
 
 }
 
-.column4 {
+.map {
     display: flex;
     width: 100%;
-    border-top: solid 2px burlywood;
     justify-content: center;
 
 
 }
 
 
-.col1 {
+.container_desc {
     display: flex;
     float: left;
     width: 50%;
     flex-direction: column;
 }
 
-.col1 span {
+.container_desc span {
     margin-left: 8px;
     text-align: left;
     font-size: 18px;
 }
 
-.col2 {
+.container_img {
     width: 50%;
     float: right;
 }
 
-.col2 img {
+.container_img img {
     margin: 50px;
     border-radius: 200px;
     max-width: 60%;
@@ -126,17 +125,17 @@
 }
 
 @media screen and (max-width: 599px) {
-    .column1 {
+    .description {
         font-size: 15px;
         width: 100%;
         text-align: center;
     }
 
-    .column1 h1 {
+    .description h1 {
         font-size: 1.5rem;
     }
 
-    .column2 {
+    .links_art {
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
@@ -144,161 +143,164 @@
 
     }
 
-    .col2 {
+    .container_img {
         display: none;
     }
 
-    .col1 {
+    .container_desc {
         width: 100%;
     }
 
-    .col1 span {
+    .container_desc span {
         margin: 10px;
     }
 
-    .col1 ul {
+    .container_desc ul {
         text-align: center;
         margin: 20px;
     }
 
-    .col1 li {
+    .container_desc li {
         margin-right: 2rem;
     }
-    .column3 h2{
+
+    .name_map h2 {
         display: none;
     }
 
-    .column4 {
+    .map {
         display: none;
     }
 
 }
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
-    .column1 {
+    .description {
         font-size: 15px;
         width: 100%;
         text-align: center;
     }
 
-    .column1 h1 {
+    .description h1 {
         font-size: 1.5rem;
     }
 
-    .column2 {
+    .links_art {
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1rem;
         width: 95%;
     }
 
-    .col1 {
+    .container_desc {
         width: 100%;
 
     }
 
-    .col2 {
-        display: none;
-    }
-    .column3 h2{
+    .container_img {
         display: none;
     }
 
-    .column4 {
+    .name_map h2 {
+        display: none;
+    }
+
+    .map {
         display: none;
     }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .column1 {
+    .description {
         font-size: 15px;
         width: 100%;
         text-align: center;
     }
 
-    .column1 h1 {
+    .description h1 {
         font-size: 1.5rem;
     }
 
-    .column2 {
+    .links_art {
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1.5rem;
         width: 95%;
     }
 
-    .col2 {
+    .container_img {
         height: 100%;
 
     }
 
-    .col1 {
+    .container_desc {
         width: 100%;
     }
-    .column3 h2{
+
+    .name_map h2 {
         display: none;
     }
-    
 
-    .column4 {
+
+    .map {
         display: none;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    .column1 {
+    .description {
         font-size: 15px;
         width: 100%;
         text-align: center;
     }
 
-    .column1 h1 {
+    .description h1 {
         font-size: 1.5rem;
     }
 
-    .column2 {
+    .links_art {
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1.5rem;
         width: 95%;
     }
 
-    .col2 {
+    .container_img {
         height: 100%;
 
     }
 
-    .col1 {
+    .container_desc {
         width: 100%;
     }
 
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
-    .column1 {
+    .description {
         font-size: 15px;
         width: 100%;
         text-align: center;
     }
 
-    .column1 h1 {
+    .description h1 {
         font-size: 1.5rem;
     }
 
-    .column2 {
+    .links_art {
         margin-top: 1rem;
         margin-bottom: 1rem;
         margin-right: 1.5rem;
         width: 95%;
     }
 
-    .col2 {
+    .container_img {
         height: 100%;
 
     }
 
-    .col1 {
+    .container_desc {
         width: 100%;
     }
 }
